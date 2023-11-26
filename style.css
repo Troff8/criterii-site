@@ -180,7 +180,7 @@ h6 {
     left: -100%;
     width: 100%;
     height: 100%;
-    backdrop-filter: blur(10px);
+    backdrop-filter: opacity(1.5) blur(20px);
     padding: 80px 15px;
     transition: left 0.3s ease 0s;
   }
@@ -194,7 +194,8 @@ h6 {
   }
   .menu__link{
     color: white;
-    font-size: 20px;
+    font-size: 25px;
+    line-height: 3;
   }
   .menu__item{
     margin: 0 0 15px 0px;
@@ -303,4 +304,13 @@ h6 {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+@media (max-width:767.98px) {
+  .text-big{
+    font-size: 1em;
+  }
+  .text-title{
+    width: 100%;
+  }
 }
